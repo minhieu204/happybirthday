@@ -51,7 +51,7 @@ function getTextPixels(text) {
   offCanvas.height = H;
   offCtx.clearRect(0, 0, W, H);
 
-  let fontSizeOverlay = text === "🎂" ? 400 : 500;
+  let fontSizeOverlay = text === "🎂" ? 500 : 500;
   offCtx.font = `bold ${fontSizeOverlay}px Arial`;
   while (offCtx.measureText(text).width > W * 0.9) {
     fontSizeOverlay -= 2;
