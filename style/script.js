@@ -192,7 +192,7 @@ function drawMatrixRain() {
         // Chuyển sang trang khác sau khi xong toàn bộ hiệu ứng
         setTimeout(() => {
           window.location.href = "index2.html"; // Đổi thành tên file bạn muốn mở
-        }, 1000); // Delay 1 giây trước khi chuyển trang
+        }, 500); // Delay 1 giây trước khi chuyển trang
 
         return;
       }
